@@ -1,18 +1,27 @@
-# **SuperCC - Trabalho Final de Algoritmos de Programação - 1º Fase / UFFS**
+# SuperCC - UFFS Chapecó
 
+Trabalho Final desenvolvido na 1º Fase em linguagem Python durante curso de CC da UFFS Chapecó, utilizando conceitos de classe.
 
-## **Sistema SuperCC**
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **SuperCC**
+| :label: Tecnologias | python3
+|  🖥  Curso     | https://cc.uffs.edu.br
+
+## Detalhes do projeto
+
+### **Sistema SuperCC**
 
 Você foi contratado(a) para criar um sistema que simule um caixa de um supermercado virtual utilizando a linguagem Python. 
 
 Nas próximas seções são descritas as informações necessárias para a implementação do sistema.
 
-## **Tarefas**
+### **Tarefas**
 
 O objetivo de seu programa é possibilitar que o operador de caixa (usuário do programa) cadastre os produtos do supermercado e também registre as compras de um determinado cliente. Quando a compra finalizar, o sistema mostra o cupom fiscal: código e nome do produto, quantidade comprada e valor. No fim do cupom é apresentado o valor total da compra.
 
 
-### **1 - Cadastrar novos produtos**
+#### **1 - Cadastrar novos produtos**
 
 O caixa poderá criar um novo produto informando os seguintes dados cadastrais:
 
@@ -21,10 +30,10 @@ O caixa poderá criar um novo produto informando os seguintes dados cadastrais:
 * **Preço do produto:** preço de venda unitário do produto;
 * **Quantidade em estoque**: quantidade do produto em estoque para a venda.
 
-### **2 - Atualizar produtos**
+#### **2 - Atualizar produtos**
 Permite que dados dos produtos sejam atualizados. Poderão ser atualizados apenas o **preço unitário** e a **quantidade em estoque**.
 
-### **3 - Registrar compra**
+#### **3 - Registrar compra**
 
 O caixa registrará a compra do cliente, informando o código de cada produto (deverá ser apresentado o nome para o caixa se certificar que digitou o código correto) e quantidade comprada. Caso a quantidade exceda a quantidade em estoque do respectivo produto, o sistema deve informar o problema, apresentando a quantidade atual do estoque e não permitindo aquela entrada.
 Se a entrada for confirmada, lembrar de atualizar o estoque do produto.
@@ -40,12 +49,12 @@ Ao final, o sistema deverá apresentar um tipo de cupom fiscal. Ex.:
 |||Total|44,54|
 
 
-### **4 - Consultar produto**
+#### **4 - Consultar produto**
 
 Permite buscar os dados do produto pelo seu código. Caso o produto não exista, exibir a mensagem **Produto não cadastrado**
 
 
-### **5 - Relatório de produtos**
+#### **5 - Relatório de produtos**
 
 Exibe a lista de todos produtos cadastrados (código, nome, preço e quantidade em estoque).
 
